@@ -1,4 +1,4 @@
-package main
+package cmd
 
 type Entry []struct {
 	Word       string      `json:"word"`
