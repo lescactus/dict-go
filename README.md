@@ -5,11 +5,20 @@ This repository contains a simple cli written in go to lookup for the definition
 ## Usage
 
 ```sh
-Usage of ./dict-go:
-  -lang string
-    	Lang of the word (default "en")
-  -word string
-    	Word to lookup
+./dict-go -h      
+dict-go is a simple cli used to lookup for the definition of a given word. 
+	You need to provide the word you are looking for and the language (optional - default is "en").
+
+	The source code is available at https://github.com/lescactus/dict-go.
+
+Usage:
+  dict-go [flags]
+
+Flags:
+  -h, --help          help for dict-go
+  -l, --lang string   Lang of the word (optional) (default "en")
+  -w, --word string   Word to lookup
+
 ```
 
 ## Installation
