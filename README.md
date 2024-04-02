@@ -1,4 +1,4 @@
-# dict-go [![go](https://github.com/lescactus/dict-go/actions/workflows/go.yml/badge.svg)](https://github.com/lescactus/dict-go/actions/workflows/go.yml) [![release](https://github.com/lescactus/dict-go/actions/workflows/release.yml/badge.svg)](https://github.com/lescactus/dict-go/actions/workflows/release.yml)
+ dict-go [![go](https://github.com/lescactus/dict-go/actions/workflows/go.yml/badge.svg)](https://github.com/lescactus/dict-go/actions/workflows/go.yml) [![release](https://github.com/lescactus/dict-go/actions/workflows/release.yml/badge.svg)](https://github.com/lescactus/dict-go/actions/workflows/release.yml)
 
 This repository contains a simple cli written in go to lookup for the definition of a given word.
 It uses the [`dictionaryapi.dev`](https://dictionaryapi.dev/) API to fetch the words definitions.
@@ -37,12 +37,12 @@ docker run --rm -it --name dict-go ghcr.io/lescactus/dict-go -w <word>
 
 ### Requirements
 
-* Golang 1.13 or higher
+* Golang 1.17 or higher
 
 
 ### From source with go
 
-You need a working [go](https://golang.org/doc/install) toolchain (It has been developped and tested with go >= 1.13). Refer to the official documentation for more information (or from your Linux/Mac/Windows distribution documentation to install it from your favorite package manager).
+You need a working [go](https://golang.org/doc/install) toolchain (It has been developped and tested with go >= 1.17). Refer to the official documentation for more information (or from your Linux/Mac/Windows distribution documentation to install it from your favorite package manager).
 
 ```sh
 # Clone this repository
